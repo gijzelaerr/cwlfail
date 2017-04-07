@@ -1,0 +1,4 @@
+FROM ubuntu:16.04
+ADD first.sh /usr/local/bin
+CMD /usr/local/bin/first.sh
+

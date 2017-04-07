@@ -1,0 +1,4 @@
+FROM ubuntu:16.04
+ADD second.sh /usr/local/bin
+CMD /usr/local/bin/second.sh
+

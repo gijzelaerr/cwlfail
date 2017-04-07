@@ -1,0 +1,4 @@
+FROM ubuntu:16.04
+ADD third.sh /usr/local/bin
+CMD /usr/local/bin/third.sh
+
